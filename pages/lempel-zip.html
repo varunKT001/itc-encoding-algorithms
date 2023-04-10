@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Lempel-Ziv</title>
+  </head>
+  <body>
+    <heading class="page-heading">
+      <h1>Information Theory and Coding</h1>
+    </heading>
+
+    <main>
+      <heading>
+        <h2>Lempel-Ziv Encoding</h2>
+      </heading>
+      <div class="input-container">
+        <heading>
+          <h2>Input</h2>
+          <i>Input format: Text paragraph or encoded message</i>
+        </heading>
+        <textarea id="input" rows="5"></textarea>
+        <div class="input-btn-container">
+          <button id="encode">Encode</button>
+          <button id="decode">Decode</button>
+        </div>
+      </div>
+
+      <div class="output-container">
+        <heading>
+          <h2>Output</h2>
+          <i>Encoded Format: (offset, length, next character)</i>
+        </heading>
+        <textarea id="output" rows="5"></textarea>
+      </div>
+
+      <div class="home-link">
+        <a href="/">Back to Home</a>
+      </div>
+    </main>
+
+    <script src="../js/lempel-ziv.js"></script>
+  </body>
+</html>

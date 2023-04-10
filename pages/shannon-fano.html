@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Shannon-Fano</title>
+  </head>
+  <body>
+    <heading class="page-heading">
+      <h1>Information Theory and Coding</h1>
+    </heading>
+
+    <main>
+      <heading>
+        <h2>Shannon Fano Encoding</h2>
+      </heading>
+      <div class="input-container">
+        <heading>
+          <h2>Input</h2>
+          <i>Input format: Alphabets and Probabilities (CSV format)</i>
+        </heading>
+        <textarea
+          id="input-1"
+          rows="1"
+          placeholder="Alphabets (comma separated)"
+        >
+a, b, c, d</textarea
+        >
+        <textarea
+          id="input-2"
+          rows="1"
+          placeholder="Probabilities (comma separated)"
+        >
+0.5, 0.25, 0.15, 0.1</textarea
+        >
+        <div class="input-btn-container">
+          <button id="encode">Encode</button>
+        </div>
+      </div>
+
+      <div class="output-container">
+        <heading>
+          <h2>Output</h2>
+          <i>Output Format: Alphabet -> Codeword</i>
+        </heading>
+        <textarea id="output" rows="5"></textarea>
+      </div>
+
+      <div class="home-link">
+        <a href="/">Back to Home</a>
+      </div>
+    </main>
+
+    <script src="../js/shannon-fano.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+h1,
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+
+li {
+  font-size: larger;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 90%;
+  }
+}
+
+.input-container {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+.output-container {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.page-heading {
+  text-align: center;
+}
+
+.home-link {
+  margin-top: 2rem;
+  font-size: larger;
+}
